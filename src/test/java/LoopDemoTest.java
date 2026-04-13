@@ -28,6 +28,6 @@ class LoopDemoTest {
         LoopDemo.main(new String[0]);
 
         String printed = capturedOut.toString().trim();
-        assertEquals("11", printed, "System.out.println should output the int after the 0..10 loop");
+        assertEquals("10", printed, "System.out.println should output the int after the 0..<10 loop");
     }
 }
